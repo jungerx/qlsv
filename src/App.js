@@ -2,7 +2,9 @@ import Layout from './layout/Layout';
 import {BrowserRouter as Router,Navigate,Route,Routes} from 'react-router-dom'
 import StudentHomePage from './pages/Student/StudentHomePage';
 import StudentCreatePage from './pages/Student/StudentCreatePage';
-import NotFoundPage from './pages/NotFoundPage'
+import StudentEdit from './pages/Student/StudentEdit';
+import NotFoundPage from './pages/NotFoundPage';
+
 function App() {
   return (
     <Router>
@@ -11,6 +13,8 @@ function App() {
         <Route index element={<Navigate to={"/student"}/>}/>
         <Route path='/student' element={<StudentHomePage/>}/>
         <Route path="/student/create" element={<StudentCreatePage/>}/>
+        <Route path="/student/:id/edit" element={<StudentEdit/>}/>
+
         <Route path='*' element={<NotFoundPage/>}/>
         </Route>
       </Routes>

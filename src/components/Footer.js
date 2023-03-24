@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer style={{textAlign: 'center'}}>copy right 2023</footer>
+    <footer style={{textAlign: 'center'}}>@ Copy Right 2023</footer>
   )
 }
 

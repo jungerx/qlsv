@@ -2,14 +2,14 @@
 	background-color: yellow !important;
 	color: red !important;
 }
-
-label {
-	font-weight: normal;
-}
+span.error{font-size: 14px; color: red;}
 footer{
 	background-color: #ccc;
 	color: #fff;
 }
 a:not(:first-child){
 	margin-left: 15px;
+}
+.message{
+	margin-top: 20px;
 }
