@@ -1,0 +1,15 @@
+.active {
+	background-color: yellow !important;
+	color: red !important;
+}
+
+label {
+	font-weight: normal;
+}
+footer{
+	background-color: #ccc;
+	color: #fff;
+}
+a:not(:first-child){
+	margin-left: 15px;
+}
