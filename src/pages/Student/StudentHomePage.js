@@ -6,6 +6,7 @@ const StudentHomePage = () => {
   return (
     <div>
         <h1>Danh sách sinh viên</h1>
+        
         <Link to="/student/create" className="btn btn-info">Add</Link>
        <Search/>
        <StudentList/>
